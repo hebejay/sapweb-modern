@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Iron-Man Sky — 铁人网络 · 个人记忆与分享" />
+  <meta name="author" content="Jayson" />
+  <title>Iron-Man Sky · 铁人网络</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">🛡️ 铁人网络</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">首页</a>
+        <a href="#gallery">影集</a>
+        <a href="#poetry">诗苑</a>
+        <a href="#tips">技巧</a>
+        <a href="#baby">宝宝</a>
+        <a href="#guestbook">留言</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="菜单">☰</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Iron-Man Sky</h1>
+      <p class="hero-sub">欢迎朋友们来到铁人网络</p>
+      <div class="clock" id="JsClock"></div>
+      <div class="hero-quote">
+        <em>登山则情满于山，观海则意溢于海</em>
+      </div>
+      <div class="hero-links">
+        <a href="shared/website_3/" target="_blank" class="btn btn-primary">🌐 宝宝成长站</a>
+        <a href="#gallery" class="btn btn-outline">📸 浏览影集</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Quick Links -->
+  <section class="section">
+    <div class="container">
+      <div class="quick-cards">
+        <a href="2-1.htm" target="_blank" class="card">
+          <span class="card-icon">🏨</span>
+          <span class="card-title">White Swan Hotel</span>
+          <span class="card-desc">白天鹅酒店 · 多媒体音视频</span>
+        </a>
+        <a href="1-2.htm" target="_blank" class="card">
+          <span class="card-icon">🌾</span>
+          <span class="card-title">Alinking Countryside</span>
+          <span class="card-desc">乡村田园 · JavaScript 测试页</span>
+        </a>
+        <a href="1-1.htm" target="_blank" class="card">
+          <span class="card-icon">🌳</span>
+          <span class="card-title">Mu-mian-Tree</span>
+          <span class="card-desc">木棉树 · 练手页面</span>
+        </a>
+        <a href="MVI_2922Html5Example.htm" target="_blank" class="card">
+          <span class="card-icon">🎬</span>
+          <span class="card-title">HTML5 视频演示</span>
+          <span class="card-desc">MVI_2922 · 多格式示例</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">📸 影集 · Gallery</h2>
+      <p class="section-desc">那些走过的路，看过的风景</p>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/IMG_sky.JPG" alt="天空" loading="lazy" />
+          <span class="gallery-label">天空</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_hotel.JPG" alt="酒店" loading="lazy" />
+          <span class="gallery-label">白天鹅酒店</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_1.JPG" alt="照片1" loading="lazy" />
+          <span class="gallery-label">回忆</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/img_2.jpg" alt="照片2" loading="lazy" />
+          <span class="gallery-label">校园一角</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/img_5.jpg" alt="照片5" loading="lazy" />
+          <span class="gallery-label">舞台</span>
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_worldweb.jpg" alt="World Web" loading="lazy" />
+          <span class="gallery-label">World Web</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">🎬 视频 · Videos</h2>
+      <p class="section-desc">点击观看（视频文件较大，建议在 Wi-Fi 下浏览）</p>
+      <div class="video-links">
+        <a href="movi/ms-5Uj4j1.mov" class="video-btn">
+          <span class="video-icon">🎞️</span>
+          <span>外星人表情包 · Cartoon</span>
+        </a>
+        <a href="movi/trim1.mp4" class="video-btn">
+          <span class="video-icon">▶️</span>
+          <span>普通浏览器视频观看</span>
+        </a>
+        <a href="2922b.mp4" class="video-btn">
+          <span class="video-icon">📱</span>
+          <span>手机浏览器视频</span>
+        </a>
+        <a href="2922a.avi" class="video-btn">
+          <span class="video-icon">🔥</span>
+          <span>火狐浏览器视频</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Poetry Section -->
+  <section id="poetry" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">📜 诗苑 · Poetry</h2>
+      <div class="poetry-card">
+        <h3>登鹳雀楼</h3>
+        <p class="poet">唐 · 王之涣</p>
+        <div class="poem">
+          <p>白日依山尽，</p>
+          <p>黄河入海流。</p>
+          <p>欲穷千里目，</p>
+          <p>更上一层楼。</p>
+        </div>
+        <p class="poem-note">意指要想看到无穷无尽的美丽景色，应当再登上一层楼。比喻想要取得更大的成功，就要付出更多的努力；要想在某一个问题上有所突破，可以在一个更高的角度审视它；也表达了只有积极向上才能高瞻远瞩。</p>
+      </div>
+      <div class="poetry-card">
+        <h3>劝学</h3>
+        <p class="poet">唐 · 颜真卿</p>
+        <div class="poem">
+          <p>三更灯火五更鸡，</p>
+          <p>正是男儿发愤时。</p>
+          <p>黑发不知勤学早，</p>
+          <p>白首方悔读书迟。</p>
+        </div>
+      </div>
+      <div class="poetry-card">
+        <h3>长歌行（节选）</h3>
+        <p class="poet">汉乐府</p>
+        <div class="poem">
+          <p>百川东到海，</p>
+          <p>何时复西归？</p>
+          <p>少壮不努力，</p>
+          <p>老大徒伤悲。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VMWare Tips -->
+  <section id="tips" class="section">
+    <div class="container">
+      <h2 class="section-title">🛠️ 虚拟机优化技巧 · VMWare Tips</h2>
+      <div class="tip-card">
+        <h3>绝招1：禁用 VMEM 文件</h3>
+        <p>编辑对应的 VMWare 虚拟机镜像后缀为 <code>.vmx</code> 的文件，添加一行参数：</p>
+        <pre><code>mainMem.useNamedFile = "FALSE"</code></pre>
+        <p>没此参数前虚拟机运行时会在本机产生后缀为 <code>.vmem</code> 的文件。虚拟机上的内存读写 ≈ 本机 VMEM 文件的读写，加上此参数后速度明显提升。但暂停虚拟机速度会变慢，突然断电更难保证数据完整性。</p>
+      </div>
+      <div class="tip-card">
+        <h3>绝招2：全部内存写入 RAM</h3>
+        <p>虚拟机 → Edit(编辑) → Preferences(偏好设定) → Memory(内存)</p>
+        <p>默认：<em>Allow some virtual machine memory to be swapped</em></p>
+        <p>改为：<strong>Fit all virtual machine memory into reserved host RAM</strong></p>
+        <p class="tip-warn">⚠️ 此设置需要本机内存足够大，否则适得其反。普通机器用默认参数即可。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Baby Site Link -->
+  <section id="baby" class="section section-alt">
+    <div class="container text-center">
+      <h2 class="section-title">👶 宝宝成长站</h2>
+      <p class="section-desc">记录宝宝的成长点滴——新手爸妈必看</p>
+      <div class="baby-links">
+        <a href="shared/website_3/month1/newerknows.html" target="_blank" class="baby-btn">新手爸妈需知</a>
+        <a href="shared/website_3/month1/month1.html" target="_blank" class="baby-btn">宝宝1个月</a>
+        <a href="shared/website_3/month2/month2.html" target="_blank" class="baby-btn">宝宝2个月</a>
+        <a href="shared/website_3/month3/month3.html" target="_blank" class="baby-btn">宝宝3个月</a>
+        <a href="shared/website_3/month4/month4.html" target="_blank" class="baby-btn">宝宝4个月</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guestbook -->
+  <section id="guestbook" class="section">
+    <div class="container">
+      <h2 class="section-title">💬 留言板 · Guestbook</h2>
+      <p class="section-desc">留下你想说的话吧</p>
+      <div class="guestbook-box">
+        <textarea id="guestNote" rows="4" placeholder="写下你的留言..."></textarea>
+        <button onclick="saveGuestBook()" class="btn btn-primary">📨 发送留言</button>
+        <div class="guestbook-entries">
+          <table id="guestTable">
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="mailto:jayson@sapweb.top">📧 联系我</a>
+        <a href="welcome-留言板.html" target="_blank">📝 旧版留言板</a>
+        <a href="MVI_2922Html5Example.htm" target="_blank">🎥 视频示例</a>
+      </div>
+      <p class="footer-copy">© 铁人网络 · Built with ❤️ for the family</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
