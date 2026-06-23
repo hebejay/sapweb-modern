@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>body-link</title>
+</head>
+
+<body topmargin="60" leftmargin="50" rightmargin="20" bottommargin="50"
+text="#6699FF" link="#FF0000" alink="#99FF00" vlink="CCCCCC">
+<center>
+set text link function
+<br /><br />
+<a href="http://www.sapweb.top"> Link to text <a/>
+<br/><br/>
+<a href="http://www.jaysonhouse.com"> Alinking now <a/>
+<br/><br/>
+<a href="1-1.htm"> Vlink text<a/>
+<br/><br/>
+</center>
+ set page margin from top, bottom, left, right around 60 pix
+
+绝招1：编辑对应的VMWare虚拟机镜像后缀为 VMX 的文件（用记事本就能编辑），添加一行参数：mainMem.useNamedFile = "FALSE" 没此参数前虚拟机运行时会在本机产生的后缀为VMEM的文件。虚拟机上的内存读写 = 本机VMEM文件的读写，那要虚拟机速度快当然就困难啦。但有得必有失——加上这个参数后暂停虚拟机速度就慢很多，突然断电就更难保证数据的完整性咯。
+
+绝招2：事先声明，这个设置需要本机的内存足够大，否则可能适得其反，普通机器用默认参数就可以了。
+虚拟机上的 Edit(编辑)——preferences(偏好设定)——Memory(内存)，默认是：Allow some virtual machine memory to be swapped(允许虚拟机上的内存部分写入本机的页面文件)，改为：Fit all virtual machine memory into reserved host RAM(将所有虚拟机内存都写到本机内存)。 
+ 
+</body>
+</html>
