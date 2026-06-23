@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>留言板</title>
+<script type="text/javascript">
+    function saveGuestBook()
+	{
+		objTable=document.getElementById("guestTable");
+		objRow=objTable.insertRow(objTable.rows.length);
+		objCell=objRow.insertCell();
+		objCell.innerText=document.getElementById("guestNote").value;
+	}
+</script>
+
+
+</head>
+
+<body>
+<p>欢迎使用留言板</p>
+<table width="100%" border="1" id="guestTable">
+  <tr>
+    <td height="223">已经留言的内容
+      <form id="form1" name="form1" method="post" action="">
+        <p>
+          <label for="guestNote"></label>
+          <textarea name="guestNote" id="guestNote" cols="45" rows="5"></textarea>
+        </p>
+        <p>
+          <input type="button" name="btnOk" id="btnOk" value="按钮" onclick="saveGuestBook()"/>
+        </p>
+    </form></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+</body>
+</html>
